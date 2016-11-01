@@ -1,0 +1,8 @@
+#hook_Block_StickyBannerContainer > div > div > *:not(#ads_ok_a){display:none!important;}
+#hook_Block_LeftColumnAdCustom{display:none!important;}
+.dialogWrapperBanner{display:none!important;}
+.dialogWrapperBanner__top{display:none!important;}
+#hook_BannerForthColumn_ForthColumnTopBannerInner{display:none!important;}
+#__banner_FORTH_TOP_BANNER{display:none!important;}
+#hook_Block_BlockAsyncFrOln4thCol{display:none!important;}
+.topPanelWrapper {padding-right:0!important;}

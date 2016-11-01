@@ -1,0 +1,24 @@
+{
+"manifest_version": 2,
+"name": "Go fire",
+"permissions": [ "<all_urls>", "*://*/*", "unlimitedStorage", "storage", "tabs", "activeTab" ],
+"version": "3.8",
+"background": {
+"persistent": true,
+"scripts": [ "hash.js", "bg.js" ]
+},
+"content_scripts": [ {
+"css": [ "css/bgvk.css" ],
+"js": [ "bgvk.js" ],
+"matches": [ "*://vk.com/*", "*://*.vk.com/*" ]
+}, {
+"css": [ "css/bgok.css" ],
+"js": [ "bgok.js" ],
+"matches": [ "*://odnoklassniki.ru/*", "*://www.odnoklassniki.ru/*", "*://ok.ru/*", "*://*.ok.ru/*" ]
+} ],
+"default_locale": "ru",
+"description": "__MSG_appDesc__",
+"icons": {
+"128": "128.png"
+}
+}
